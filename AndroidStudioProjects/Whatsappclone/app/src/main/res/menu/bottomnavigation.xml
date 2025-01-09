@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_chsts"
+        android:icon="@drawable/imageforchats"
+        android:title="Chats" />
+    <item
+        android:id="@+id/navigation_status"
+        android:icon="@drawable/imageforupdates"
+        android:title="Updates" />
+    <item
+        android:id="@+id/navigation_communities"
+        android:icon="@drawable/imageforcommunites"
+        android:title="Communities" />
+    <item
+        android:id="@+id/navigation_calls"
+        android:icon="@drawable/imageforcall"
+        android:title="Calls" />
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityforworkingchats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#D6E7C3">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+            android:id="@+id/name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+   />
+
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="52dp"
+            android:id="@+id/idforcall"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/imageforcall"/>
+        <ImageView
+            android:layout_width="49dp"
+            android:id="@+id/idforvideocall"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/videocallimg"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/idforlistview"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="650dp">
+
+    </ListView>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+
+       <EditText
+           android:layout_width="300dp"
+           android:layout_height="match_parent"
+           android:id="@+id/idforentermessage"
+           android:hint="Enter Message" />
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="60dp"
+           android:id="@+id/idforsendmessage"
+           android:src="@drawable/sendbutton"/>
+
+
+   </LinearLayout>
+
+
+</LinearLayout>
+
